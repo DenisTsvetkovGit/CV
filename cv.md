@@ -41,7 +41,7 @@ int main()
 
 # PROJECTS
 
-Моё СV на GitHub: [https://github.com/AngelinaAnashkevich/CV/blob/markdowm-cv/cv.md](https://github.com/AngelinaAnashkevich/CV/blob/markdowm-cv/cv.md)
+Моё СV на GitHub: [https://github.com/DenisTsvetkov/CV/blob/markdowm-cv/cv.md](https://github.com/DenisTsvetkov/CV/blob/markdowm-cv/cv.md)
 
 # EDUCATION
 
