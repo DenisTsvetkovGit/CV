@@ -4,7 +4,7 @@
 
 - Email: angelina.anashkevich@gmail.com
 
-- Github: https://github.com/DenisTsvetkov
+- Github: https://github.com/DenisTsvetkovGit
 
 # SUMMARY
 > I am a student at P.M. Masherov University of Eastern Europe, majoring in Information Resource Management. My goal is to become a professional in the field of information technology and apply my knowledge in various areas of business. I am motivated, diligent and love to learn new things. My strengths are analytical mind, communication skills, responsibility.
@@ -41,7 +41,7 @@ int main()
 
 # PROJECTS
 
-Моё СV на GitHub: [https://github.com/DenisTsvetkov/CV/blob/markdowm-cv/cv.md](https://github.com/DenisTsvetkov/CV/blob/markdowm-cv/cv.md)
+Моё СV на GitHub: [https://github.com/DenisTsvetkovGit/CV/blob/markdowm-cv/cv.md](https://github.com/DenisTsvetkovGit/CV/blob/markdowm-cv/cv.md)
 
 # EDUCATION
 
