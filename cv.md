@@ -2,7 +2,7 @@
 # CONTACTS
 - Vitebs, Belarus
 
-- Email: angelina.anashkevich@gmail.com
+- Email: denistsvetkov2@gmail.com
 
 - Github: https://github.com/DenisTsvetkovGit
 
@@ -18,26 +18,51 @@
 
 # CODE
 ```
-int fibonacci(int n)
-{
-    if (n <= 1)
-        return n;
-    return fibonacci(n - 1) + fibonacci(n - 2);
+void quicksort(vector<int>& arr, int left, int right) {
+    int i = left, j = right;
+    int pivot = arr[(left + right) / 2];
+
+    while (i <= j) {
+        while (arr[i] < pivot) {
+            i++;
+        }
+
+        while (arr[j] > pivot) {
+            j--;
+        }
+
+        if (i <= j) {
+            swap(arr[i], arr[j]);
+            i++;
+            j--;
+        }
+    }
+
+    if (left < j) {
+        quicksort(arr, left, j);
+    }
+
+    if (i < right) {
+        quicksort(arr, i, right);
+    }
 }
 
-int main()
-{
-    int n;
-    std::cout << "Enter the position of the number in the Fibonacci sequence: ";
-    std::cin >> n;
-    std::cout << "The Fibonacci number at position " << n << " is " << fibonacci(n) << std::endl;
+int main() {
+    vector<int> arr = { 3, 7, 1, 9, 2, 4, 5, 6, 8 };
+    quicksort(arr, 0, arr.size() - 1);
+
+    for (int num : arr) {
+        cout << num << " ";
+    }
+    cout << endl;
+
     return 0;
 }
 ```
 
 # COURSES
 + Экономика организации
-+ Высшая математика
++ Компьютерная графика
 
 # PROJECTS
 
