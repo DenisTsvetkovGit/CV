@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a class="nav1" href="#nav1">CONTACTS</a></li>
+      <li><a class="nav2" href="#nav2">SUMMARY</a></li>
+      <li><a class="nav3" href="#nav3">SKILLS</a></li>
+      <li><a class="nav4" href="#nav4">CODE</a></li>
+      <li><a class="nav4" href="#nav4">COURSES</a></li>
+      <li><a class="nav5" href="#nav5">PROJECTS</a></li>
+      <li><a class="nav6" href="#nav6">EDUCATION</a></li>
+      <li><a class="nav7" href="#nav7">ENGLISH</a></li>
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+
+  <section class="info-section">
+    <div class="info-img">
+      <img src="./photo_2023-05-12_14-05-43.jpg" alt="Your image">
+    </div>
+    <div class="info-text">
+      <h2>Денис Цветков</h2>
+      <p>Студент 1 курса УИР ВГУ им. П. М. Машерова</p>
+    </div>
+  </section>
+  
+  
+  <hr>
+  <div class="section-container">
+    <section class="section">
+      <h2 id="nav1">CONTACTS</h2>
+      <ul>
+        <li>Vitebsk, Belarus</li>
+        <li>Email: <a href="mailto:denistsvetkov2@gmail.com" class="link_git">denistsvetkov2@gmail.com</a></li>
+        <li>Github: <a href="https://github.com/DenisTsvetkovGit" class="link_git">https://github.com/DenisTsvetkovGit</a> </li>
+      </ul>
+    </section>
+    <section class="section">
+      <h2 id="nav2">SUMMARY</h2>
+      <p>I am a student at P.M. Masherov University of Eastern Europe, majoring in Information Resource Management. My goal is to become a professional in the field of information technology and apply my knowledge in various areas of business. I am motivated, diligent and love to learn new things. My strengths are analytical mind, communication skills, responsibility.</p>
+    </section>
+    <section class="section">
+      <h2 id="nav3">SKILLS</h2>
+      <ul>
+        <li>C++</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Assembler</li>
+        <li>Adobe Photoshop</li>
+      </ul>
+      
+    </section>
+    <section class="section">
+      <h2 id="nav4">CODE</h2>
+      <h1>Quicksort</h1>
+    <pre>
+      void quicksort(vector<int>& arr, int left, int right) {
+        int i = left, j = right;
+        int pivot = arr[(left + right) / 2];
+    
+        while (i <= j) {
+            while (arr[i] < pivot) {
+                i++;
+            }
+    
+            while (arr[j] > pivot) {
+                j--;
+            }
+    
+            if (i <= j) {
+                swap(arr[i], arr[j]);
+                i++;
+                j--;
+            }
+        }
+    
+        if (left < j) {
+            quicksort(arr, left, j);
+        }
+    
+        if (i < right) {
+            quicksort(arr, i, right);
+        }
+    }
+    
+    </pre>
+    </section>
+    <section class="section">
+      <h2 id="nav5">COURSES</h2>
+      <ul>
+        <li>Компьютерная графика</li>
+        <li>Экономика организации</li>
+      </ul>
+    </section>
+    <section class="section">
+      <h2 id="nav6">PROJECTS</h2>
+      <p>Моё СV на GitHub: <a class="link_git" href="https://denistsvetkovgit.github.io/CV/cv">https://denistsvetkovgit.github.io/CV/cv</a></p>
+    </section>
+    <section class="section">
+      <h2 id="nav7">EDUCATION</h2>
+      <p>Vitebsk State University named after P.M. Masherov</p>
+    </section>
+    <section class="section">
+      <h2 id="nav8">ENGLISH</h2>
+      <p>A2+ Pre-Intermediate</p>
+    </section>
+  </div>
+  <footer class="footer">
+    <div class="container footer-container"><div>© 2023 <a href="https://github.com/DenisTsvetkovGit" class="github nav-link">DenisTsvetkovGit</a></div></div>
+  </footer>
+</body>
+</html>
